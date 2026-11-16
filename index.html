@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LOBEWOHL — SBCS Farewell 2026–27 memories archive.">
+  <title>LOBEWOHL | SBCS Farewell 2026–27</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">LOBEWOHL<span>✦</span></a>
+    <nav><a href="#gallery">Photos</a><a href="#videos">Videos</a><a href="#about">About</a></nav>
+    <a class="nav-cta" href="#gallery">Explore memories ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">THE OFFICIAL MEMORIES ARCHIVE</p>
+        <h1>One night.<br><em>A thousand memories.</em></h1>
+        <p class="hero-sub">SBCS FAREWELL 2026–27</p>
+        <div class="event-line">17 NOVEMBER 2026 <span>•</span> FARZI CAFE, BANSAL ONE</div>
+        <a class="gold-button" href="#gallery">EXPLORE THE GALLERY <b>↘</b></a>
+      </div>
+      <div class="hero-bottom"><span>THE LAST CHAPTER</span><span>BHOPAL · INDIA</span></div>
+    </section>
+
+    <section class="intro section" id="about">
+      <p class="eyebrow">MORE THAN JUST PHOTOGRAPHS</p>
+      <h2>Some nights become<br><em>forever.</em></h2>
+      <p class="muted intro-copy">A place to revisit the laughter, friendships, performances and little moments that made our farewell unforgettable.</p>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE PHOTO COLLECTION</p><h2>Captured <em>moments.</em></h2></div>
+        <span class="count" id="photo-count">0 PHOTOS</span>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="All">All moments</button>
+        <button class="filter" data-category="Entry">Entry</button>
+        <button class="filter" data-category="Candid">Candid</button>
+        <button class="filter" data-category="Friends">Friends</button>
+        <button class="filter" data-category="Groups">Groups</button>
+        <button class="filter" data-category="Performances">Performances</button>
+        <button class="filter" data-category="Teachers">Teachers</button>
+      </div>
+      <div class="gallery" id="gallery-grid"></div>
+      <p class="empty-note" id="empty-note">Your photographs will appear here once you add them to <code>assets/photos</code> and update <code>photos.json</code>.</p>
+    </section>
+
+    <section class="video-section section" id="videos">
+      <p class="eyebrow">RELIVE THE ENERGY</p>
+      <h2>Moving <em>memories.</em></h2>
+      <p class="muted">Add your farewell films and performance videos here.</p>
+      <div class="video-grid" id="video-grid"></div>
+      <p class="empty-note" id="video-empty">No videos added yet. Add video links in <code>videos.json</code>.</p>
+    </section>
+
+    <section class="closing">
+      <p class="eyebrow">UNTIL WE MEET AGAIN</p>
+      <h2>The chapter ends.<br><em>The memories don't.</em></h2>
+      <a href="#home" class="text-link">BACK TO TOP ↑</a>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home">LOBEWOHL<span>✦</span></a><p>SBCS FAREWELL 2026–27 · MADE OF MEMORIES</p></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="close-lightbox" aria-label="Close">×</button>
+    <button class="lightbox-prev" id="prev-photo" aria-label="Previous photo">‹</button>
+    <figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox-next" id="next-photo" aria-label="Next photo">›</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
