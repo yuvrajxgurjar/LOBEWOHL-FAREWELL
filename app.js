@@ -26,5 +26,25 @@ function closeBox(){document.getElementById('lightbox').classList.remove('open')
 document.getElementById('close-lightbox').onclick=closeBox;
 document.getElementById('lightbox').addEventListener('click',e=>{if(e.target.id==='lightbox')closeBox()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBox();if(e.key==='ArrowLeft')move(-1);if(e.key==='ArrowRight')move(1)});
-function renderVideos(videos){const box=document.getElementById('video-grid');const note=document.getElementById('video-empty');box.innerHTML='';note.style.display=videos.length?'none':'block';videos.forEach(v=>{const d=document.createElement('article');d.className='video-card';d.innerHTML=`<iframe loading="lazy" src="${safe(v.embed)}" title="${safe(v.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h3>${safe(v.title)}</h3>`;box.appendChild(d)})}
-loadData();
+function renderVideos(videos){
+  const box=document.getElementById('video-grid');
+  const note=document.getElementById('video-empty');
+
+  box.innerHTML='';
+  note.style.display=videos.length?'none':'block';
+
+  videos.forEach(v=>{
+    const d=document.createElement('article');
+    d.className='video-card';
+
+    d.innerHTML=`
+      <video controls playsinline preload="metadata" style="width:100%;border-radius:12px;">
+        <source src="${safe(v.src)}" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+      <h3>${safe(v.title)}</h3>
+    `;
+
+    box.appendChild(d);
+  });
+  }
