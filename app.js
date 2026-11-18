@@ -1,8 +1,32 @@
 let photos=[], visible=[], current=0;
 const grid=document.getElementById('gallery-grid');
+console.log("Gallery script loaded");
+console.log("Gallery grid:", grid);
+console.log("Photo count:", photos.length);
 const count=document.getElementById('photo-count');
 const empty=document.getElementById('empty-note');
 async function loadData(){
+  try {
+    const r = await fetch('./photos.json?v=3');
+    if (!r.ok) throw new Error('Photos JSON not found');
+    photos = await r.json();
+    console.log('Photos loaded:', photos.length);
+  } catch(e) {
+    console.error('Photo loading error:', e);
+    photos = [];
+  }
+
+  visible = photos;
+  render();
+
+  try {
+    const r = await fetch('./videos.json?v=3');
+    const videos = await r.json();
+    renderVideos(videos);
+  } catch(e) {
+    console.error('Video loading error:', e);
+  }
+}
   try{const r=await fetch('photos.json');photos=await r.json()}catch(e){photos=[]}
   visible=photos;render();
   try{const r=await fetch('videos.json');const videos=await r.json();renderVideos(videos)}catch(e){}
