@@ -1,42 +1,19 @@
 [
-{
-"src": "assets/photos/IMG-20261111-WA0001.jpg",
-"category": "Candid",
-"title": "Farewell Memories 1"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0003.jpg",
-"category": "Candid",
-"title": "Farewell Memories 2"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0017.jpg",
-"category": "Friends",
-"title": "Farewell Memories 3"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0020.jpg",
-"category": "Friends",
-"title": "Farewell Memories 4"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0025.jpg",
-"category": "Friends",
-"title": "Farewell Memories 5"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0034.jpg",
-"category": "Candid",
-"title": "Farewell Memories 6"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0032.jpg",
-"category": "Groups",
-"title": "Farewell Memories 7"
-},
-{
-"src": "assets/photos/IMG-20261118-WA0043.jpg",
-"category": "Groups",
-"title": "Farewell Memories 8"
-}
+{"src":"assets/photos/IMG-20261111-WA0001.jpg","category":"Candid","title":"Farewell Memories 1"},
+{"src":"assets/photos/IMG-20261118-WA0003.jpg","category":"Candid","title":"Farewell Memories 2"},
+{"src":"assets/photos/IMG-20261118-WA0017.jpg","category":"Friends","title":"Farewell Memories 3"},
+{"src":"assets/photos/IMG-20261118-WA0020.jpg","category":"Friends","title":"Farewell Memories 4"},
+{"src":"assets/photos/IMG-20261118-WA0025.jpg","category":"Friends","title":"Farewell Memories 5"},
+{"src":"assets/photos/IMG-20261118-WA0034.jpg","category":"Candid","title":"Farewell Memories 6"},
+{"src":"assets/photos/IMG-20261118-WA0032.jpg","category":"Groups","title":"Farewell Memories 7"},
+{"src":"assets/photos/IMG-20261118-WA0043.jpg","category":"Groups","title":"Farewell Memories 8"},
+{"src":"assets/photos/IMG-20261118-WA0081.jpg","category":"Candid","title":"Farewell Memories 9"},
+{"src":"assets/photos/IMG-20261118-WA0089.jpg","category":"Friends","title":"Farewell Memories 10"},
+{"src":"assets/photos/IMG-20261118-WA0097.jpg","category":"Friends","title":"Farewell Memories 11"},
+{"src":"assets/photos/IMG-20261118-WA0100.jpg","category":"Groups","title":"Farewell Memories 12"},
+{"src":"assets/photos/IMG-20261118-WA0102.jpg","category":"Candid","title":"Farewell Memories 13"},
+{"src":"assets/photos/IMG-20261118-WA0144.jpg","category":"Groups","title":"Farewell Memories 14"},
+{"src":"assets/photos/IMG-20261118-WA0137.jpg","category":"Friends","title":"Farewell Memories 15"},
+{"src":"assets/photos/IMG-20261118-WA0105.jpg","category":"Candid","title":"Farewell Memories 16"},
+{"src":"assets/photos/IMG-20261118-WA0133.jpg","category":"Groups","title":"Farewell Memories 17"}
 ]
