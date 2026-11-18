@@ -1,7 +1,22 @@
 [
-  {
-    "src": "assets/photos/IMG-20261111-WA0001.jpg",
-    "category": "Candid",
-    "title": "Farewell Memories"
-  }
+{
+"src": "assets/photos/IMG-20261111-WA0001.jpg",
+"category": "Candid",
+"title": "Farewell Memories 1"
+},
+{
+"src": "assets/photos/IMG-20261111-WA0003.jpg",
+"category": "Candid",
+"title": "Farewell Memories 2"
+},
+{
+"src": "assets/photos/IMG-20261111-WA00017.jpg",
+"category": "Friends",
+"title": "Farewell Memories 3"
+},
+{
+"src": "assets/photos/IMG-20261111-WA00020.jpg",
+"category": "Friends",
+"title": "Farewell Memories 4"
+}
 ]
